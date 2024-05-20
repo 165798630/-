@@ -24,10 +24,68 @@ a{
     background: url(images/headerBg.png) no-repeat center bottom/cover;
     height: 100vh;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .main{
     background: black;
     height: 100vh;
+}
+
+.header__nav-list{
+    display: flex;
+    column-gap: 31px;
+}
+
+.header__nav-list li a{
+    color: wheat;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content-title{
+    font-size: 74px;
+    line-height: 84px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    max-width: 672px;
+    width: 100%;
+    text-align: center;
+}
+
+.header__content-text{
+    max-width: 766px;
+    width: 100%;
+    font-size: 28px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 70px;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.btn{
+    background: rgba(32, 145, 249, 1);
+    border-radius: 20px;
+    line-height: 19px;
+    font-size: 16px;
+    padding: 15px 45px;
+    
 }
