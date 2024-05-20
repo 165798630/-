@@ -23,4 +23,11 @@ a{
 .header{
     background: url(images/headerBg.png) no-repeat center bottom/cover;
     height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.main{
+    background: black;
+    height: 100vh;
 }
